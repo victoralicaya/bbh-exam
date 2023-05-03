@@ -35,14 +35,14 @@
             </video>
             <div class="in-content">
                 <div class="in-content-text">
-                    <h1 class="aos-init aos-animate" data-aos="fade-up">Welcome to the world of <b>KPOP</b></h1>
+                    <h1 data-aos="zoom-in" data-aos-delay="200">Welcome to the world of <b>KPOP</b></h1>
                 </div>
             </div>
         </section>
 
         <section class="container" id="about">
             <div class="row second-content">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
                     <h2>What is <b>KPOP</b>?</h2>
                     <hr>
                     <p class="content-text"><b>KPOP or Korean Popular Music</b> is a form of popular music originating in South Korea as part of South Korean Culture.
@@ -50,7 +50,7 @@
                     </p>
                     <a href="#" class="btn btn-outline-secondary">Read More</a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                     <img src="{{ asset('images/blackpink.jpg') }}" alt="blackpink" height="100%" width="100%" class="img-thumbnail">
                 </div>
             </div>
@@ -58,8 +58,8 @@
 
         <section class="third-content" id="artists">
             <div class="container">
-                <h2 class="text-center text-white">SOME OF THE FAMOUS KPOP ARTISTS</h2>
-                <div class="row pt-5">
+                <h2 class="text-center text-white" data-aos="fade-left" data-aos-delay="200">SOME OF THE FAMOUS KPOP ARTISTS</h2>
+                <div class="row pt-5" data-aos="fade-down" data-aos-delay="200">
                     <div class="col-lg-4">
                         <div class="card">
                             <img src="{{ asset('images/twice.jpg') }}" alt="twice" class="card-img-top">
@@ -82,7 +82,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-5">
+                <div class="row pt-5" data-aos="fade-up" data-aos-delay="200">
                     <div class="col-lg-4">
                         <div class="card">
                             <img src="{{ asset('images/itzy.jpg') }}" alt="itzy" class="card-img-top">
@@ -109,13 +109,13 @@
 
         <section class="fourth-content">
             <div class="container">
-                <h2 class="text-center">WELL KNOWN KPOP AGENCIES</h2>
-                <div class="agency-logos mt-5">
-                    <img src="{{ asset('images/jyp.jpg') }}" alt="">
-                    <img src="{{ asset('images/yg.jpg') }}" alt="">
-                    <img src="{{ asset('images/hybe.jpg') }}" alt="">
-                    <img src="{{ asset('images/sm.jpg') }}" alt="">
-                    <img src="{{ asset('images/ador.png') }}" alt="">
+                <h2 class="text-center" data-aos="fade-right" data-aos-delay="200">WELL KNOWN KPOP ENTERTAINMENT AGENCIES</h2>
+                <div class="agency-logos mt-5" data-aos="flip-left" data-aos-delay="200">
+                    <img src="{{ asset('images/jyp.jpg') }}" alt="jyp">
+                    <img src="{{ asset('images/yg.jpg') }}" alt="yg">
+                    <img src="{{ asset('images/hybe.jpg') }}" alt="hybe">
+                    <img src="{{ asset('images/sm.jpg') }}" alt="sm">
+                    <img src="{{ asset('images/ador.png') }}" alt="ador">
                 </div>
             </div>
         </section>
